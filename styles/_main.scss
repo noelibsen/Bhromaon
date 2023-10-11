@@ -102,3 +102,60 @@
         font-size: 16px;
     }
 }
+.country{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.content-header-travel{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.container-travels{
+    width: 100%;
+    background-image: url("/images/image-3.png");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+}
+.mountains{
+    background-image: url("/images/image-4.png");
+}
+.travel-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #232323;
+    opacity: 90%;
+    max-width: 40%;
+    max-height: 100vh;
+    margin-left: -40%;
+    margin-bottom: 10vh;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.travel-wrapper-mountains{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #232323;
+    opacity: 90%;
+    max-width: 40%;
+    max-height: 100vh;
+    margin-right: -40%;
+    margin-bottom: 10vh;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
