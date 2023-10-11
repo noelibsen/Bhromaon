@@ -22,8 +22,8 @@
     justify-content: space-evenly;
     border: none;
     align-items: center;
-    min-width: 228px;
-    min-height: 63px;
+    max-width: 228px;
+    max-height: 63px;
 }
 .button-home:hover{
     cursor: pointer;
