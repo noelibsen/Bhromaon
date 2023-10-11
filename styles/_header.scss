@@ -1,7 +1,8 @@
-body{
+html,
+body {
     margin: 0px;
     color: white;
-
+    scroll-behavior: smooth;
 }
 .header-container{
     display: flex;
@@ -19,7 +20,7 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     color: white;
 }
 .content-container{
@@ -34,7 +35,6 @@ body{
     margin-bottom: 0px;
 }
 .frontpage-small-headline{
-    font-family: Josefin Sans;
     font-size: 22px;
     font-weight: 400;
     line-height: 26px;
@@ -85,6 +85,7 @@ body{
     position: sticky; 
     top: 0;
     z-index: 1;
+    margin-top: -83px;
 
     &__list{
         list-style: none;
@@ -92,7 +93,11 @@ body{
         flex-direction: row;
         justify-content: space-evenly;
         flex-wrap: wrap;
+        @media screen and (max-width: 630px) {
+            display: none;
+        }
     }
+
     &__links{
         text-decoration: none;
         margin-left: 20px;
@@ -103,11 +108,51 @@ body{
         text-align: left;
         color: white;
     }
+    #burger{
+        appearance: none;
+        color: white;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin: 0px;
+        background-repeat: no-repeat;
+        background-image: url(/images/bars-solid.svg);
+        @media  screen and (min-width: 631px) {
+            display: none;
+        }
+        &:checked ~ .nav__list{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            width: 75%;
+            background-color: #2e46b1;
+            opacity: 90%;
+            margin: 0;
+            right: 0;
+            .burger-toggle{
+                align-self: flex-end;
+                margin: 20px;
+                font-size: 30px;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        
+        }   
+    }
     &__links:hover{
         color: rgb(248, 187, 187);
     }
 }
 
+.burger-toggle {
+    @media screen and (min-width: 631px) {
+        display: none;
+    }
+}
 
 .home{
     font-size: 24px;
