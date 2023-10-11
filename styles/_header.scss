@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    color: white;
+
+}
+.header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.main-header{
+    width: 100%;
+    background-image: url("/images/image-1.png");
+    background-size: cover;
+    background-position: top left;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.content-container{
+    max-width: 500px;
+}
+.main-headline{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 4.800000190734863px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.frontpage-small-headline{
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 6.820000171661377px;
+    text-align: center;
+    margin-top: 5px;
+}
+.search-container{
+    background-color: white;
+    min-width: 40%;
+    display: flex;
+    padding: 2px;
+    justify-content: space-between;
+}
+.searchbar{
+    border: none;
+    min-width: 260px;   
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 2.3px;
+    text-align: center;
+}
+.scroll{
+    max-height: 76px;
+    min-width: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.scrolldown{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 2.799999952316284px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.nav{
+    min-height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #5474FD;
+    width: 100%;
+    &__list{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+    }
+    &__links{
+        text-decoration: none;
+        margin-left: 20px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: white;
+    }
+}
+.home{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2.4000000953674316px;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width: 368px) {
+    .searchbar {
+        display: none;
+    }
+    .main-headline{
+        font-size: 40px;
+    }
+    .button-home{
+        width: 50%;
+        align-items: center;
+    }
+    .search-container{
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+    }
+}
+

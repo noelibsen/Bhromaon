@@ -9,32 +9,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stlyes/Normalise.css">
-    <link rel="stylesheet" href="stlyes/index.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <header class="main-header" id="header">
-        <div class="content-cotainer__centered">
-            <h1 class="main-headline">Bhromaon</h1>
-            <h3 class="frontpage-small-headline">Safe Travel Anywhere</h3>
+    <header class="main-header">
+        <div class="header-container">
+            <div class="content-container__centered">
+                <h1 class="main-headline">BHROMAON</h1>
+                <h3 class="frontpage-small-headline">Safe Travel Anywhere</h3>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Search Your Travel Destination" class="searchbar">
+                <button class="button-home">Search <i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="scroll">
+                <p class="scrolldown">Scroll Down</p>
+                <i class="fa-solid fa-chevron-down" style="color: #ffffff;"></i>
+            </div>
         </div>
-        <div class="search-container">
-            <input type="text" placeholder="Search Your Travel Destination" class="searchbar">
-            <button class="button">Search <i class="fa-solid fa-magnifying-glass"></i></button>
-        </div>
-        <div class="scroll">
-            <p class="scrolldown">Scroll Down</p>
-            <i class="fa-light fa-chevron-down"></i>
-        </div>
-        <nav>
+        <nav class="nav">
             <a href="#header" class="home">Bhromaon</a>
-            <ul>
-                <li><a href="#who" class="nav-links">Who We Are</a></li>
-                <li><a href="#what" class="nav-links">What We Do</a></li>
-                <li><a href="#travel" class="nav-links">Travel With Us</a></li>
-                <li><a href="#contact" class="nav-links">Contact Us</a></li>
+            <ul class="nav__list">
+                <li><a href="#who" class="nav__links">Who We Are</a></li>
+                <li><a href="#what" class="nav__links">What We Do</a></li>
+                <li><a href="#travel" class="nav__links">Travel With Us</a></li>
+                <li><a href="#contact" class="nav__links">Contact Us</a></li>
             </ul>
         </nav>
     </header>
+    <section class="container-why">
+        <div class="content-container-why">
+            <div class="content-wrapper-why">
+                <h3 class="content-header">search-container</h3>
+                <p class="content">Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee <br><br> men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that.</p>
+                <button class="button">Explore Places</button>
+            </div>
+            <div class="content-wrapper-why images">
+                <img src="/images/small-image-1.png" alt="Picture of a cottage" class="small-img">
+                <img src="/images/small-image-2.png" alt="Picture of mountains" class="small-img">
+            </div>
+        </div>
+    </section>
     
 </body>
 </html>

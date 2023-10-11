@@ -1,0 +1,50 @@
+@import 'fonts';
+.container-why{
+    width: 100%;
+    background-image: url("/images/Image-2.png");
+    background-size: cover;
+    background-position: top left;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.content-container-why{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    max-height: 450px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row
+}
+.small-img{
+    width: 350px;
+    height: 220px;
+    margin: 10px;
+}
+.content-wrapper-why{
+    max-width: 50%;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-header{
+    font-family: 'Aleo', serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.content{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1.600000023841858px;
+    text-align: left;
+}

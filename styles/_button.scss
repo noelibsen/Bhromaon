@@ -1,0 +1,31 @@
+.button-home{
+    color: white;
+    background-color: #5474FD;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    min-width: 100px;
+    min-height: 63px;
+    align-items: center;
+}
+.button-home:hover{
+    cursor: pointer;
+    background-color: #98a9f8;
+}
+
+.button{
+    color: white;
+    background-color: #5474FD;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    align-items: center;
+    min-width: 228px;
+    min-height: 63px;
+}
+.button-home:hover{
+    cursor: pointer;
+    background-color: #98a9f8;
+}
