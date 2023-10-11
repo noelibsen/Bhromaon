@@ -76,19 +76,22 @@ body{
     margin-bottom: 0px;
 }
 .nav{
-    min-height: 100px;
+    height: 83px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: #5474FD;
     width: 100%;
+    position: sticky; 
+    top: 0;
+    z-index: 1;
+
     &__list{
         list-style: none;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         flex-wrap: wrap;
-
     }
     &__links{
         text-decoration: none;
