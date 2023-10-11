@@ -189,5 +189,9 @@
     max-height: 100%;
     max-width: 39%;
 }
-
+@media screen and (max-width: 498px){
+ .content-reviews{
+    max-width: 80%;
+ }
+}
 
